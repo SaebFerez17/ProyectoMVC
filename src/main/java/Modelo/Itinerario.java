@@ -8,8 +8,9 @@ package Modelo;
  *
  * @author sebas
  */
-public abstract class Persona {
-    private long cedula;
-    private String nombre;
-    
+public class Itinerario {
+    private String hora;
+    private int[] Fecha = new int[3];
+    private String[] Ruta = new String[2];
+    private Conductor conductor;
 }

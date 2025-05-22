@@ -8,8 +8,6 @@ package Modelo;
  *
  * @author sebas
  */
-public abstract class Persona {
-    private long cedula;
-    private String nombre;
+public class Usuario extends Persona{
     
 }

@@ -8,8 +8,8 @@ package Modelo;
  *
  * @author sebas
  */
-public abstract class Persona {
-    private long cedula;
-    private String nombre;
-    
+public class Reserva {
+    private Usuario pasajero;
+    private Vehiculo vehiculo;
+    private int puesto;
 }
